@@ -6,24 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dist/css/style.min.css">
+    <script src="https://kit.fontawesome.com/a6a12dedc4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-    <nav>
-    <ul>
-        <li>link nr 1</li>
-        <li>link nr 2</li>
-        <li>link nr 3</li>
-
-    </ul>
+    <nav class="nav nav-mobile">
+    <a class="nav__link" href="#home">Home</a>
+    <a class="nav__link" href="#aboutus">O nas</a>
+    <a class="nav__link" href="#offer">Oferta</a>
+    <a class="nav__link" href="#contact">Kontakt</a>
 </nav>
-    <p>Strona glowna</p>
-    <a href="page.html"></a>
 
-    <footer>
-    <p>footer</p>
+<nav class="nav nav-desktop">
+    <a class="nav__link" href="#home">Home</a>
+    <a class="nav__link" href="#aboutus">O nas</a>
+    <a class="nav__link" href="#offer">Oferta</a>
+    <a class="nav__link" href="#contact">Kontakt</a>
+</nav>
+    <header>
+        <div class="header">
+            <div class="header__shadow"></div>
+            <div class="header-img__text">
+                <p>Forest Group</p>
+                <h1>Najpiękniejszy park w Twojej okolicy!</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" id="aboutus">
+        <div class="wrapper">
+            <h2 class="section__heading">O nas</h2>
+            <div class="about-us__container">
+                <img src="../src/img/waters-sm.jpg" alt="kamienna wyspa z drzewem na wodzie, las na horyzoncie"
+                    class="about-us__img">
+                <div class="about-us__text">
+                    <h3>Niezapomniane przygody</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sapiente tenetur dolorem quo atque
+                        reprehenderit. Minus repellat error et, veritatis illo nisi commodi fugiat velit est. Ea debitis
+                        maxime officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum quibusdam
+                        tenetur veniam voluptatibus, suscipit obcaecati eum repellat temporibus corporis officia. Ea
+                        minima cupiditate sit amet ducimus repudiandae quaerat ut modi! <a href="https://mmcschool.pl/"
+                            target="_blank" rel="noopener" class="link">www.MMCSchool.pl</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="hero-img">
+            <div class="hero-img__shadow"></div>
+            <div class="hero-img__text">
+                <p>Przygoda dla całej rodziny</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <p class="footer__bottom-text">&copy; <span class="footer__year"></span> Forest Group Company Ltd.</p>
 </footer>
     <script src="./dist/js/main.min.js"></script>
 </body>
