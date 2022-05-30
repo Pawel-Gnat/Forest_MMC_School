@@ -41,7 +41,7 @@
         <div class="wrapper">
             <h2 class="section__heading">O nas</h2>
             <div class="about-us__container">
-                <img src="../src/img/waters-sm.jpg" alt="kamienna wyspa z drzewem na wodzie, las na horyzoncie"
+                <img src="../dist/img/waters-sm.jpg" alt="kamienna wyspa z drzewem na wodzie, las na horyzoncie"
                     class="about-us__img">
                 <div class="about-us__text">
                     <h3>Niezapomniane przygody</h3>
@@ -65,8 +65,92 @@
         </div>
     </section>
 
+    <section class="section" id="offer">
+        <div class="wrapper">
+            <h2 class="section__heading">Oferta</h2>
+            <p class="offer__text">Wybierz jedną z naszych wspaniałych ofert!</p>
+            <div class="offercard">
+                <div class="offercard__header">
+                    <p class="offercard__header--heading">Demo</p>
+                    <p class="offercard__header--price">$0</p>
+                </div>
+                <div class="offercard__text">
+                    <p><i class="fa-solid fa-check offercard__text--check"></i> opcja w pakiecie</p>
+                    <p><i class="fa-solid fa-check offercard__text--check"></i> opcja w pakiecie</p>
+                    <p class="offercard__text--unable"><i class="fa-solid fa-minus offercard__text--minus"></i> opcja
+                        poza pakietem</p>
+                    <p class="offercard__text--unable"><i class="fa-solid fa-minus offercard__text--minus"></i> opcja
+                        poza pakietem</p>
+                    <p class="offercard__text--unable"><i class="fa-solid fa-minus offercard__text--minus"></i> opcja
+                        poza pakietem</p>
+                </div>
+                <button class="offercard__btn">Wybierz</button>
+            </div>
+            <div class="offercard">
+                <div class="offercard__header">
+                    <p class="offercard__header--heading">Standard</p>
+                    <p class="offercard__header--price">$99</p>
+                </div>
+                <div class="offercard__text">
+                    <p><i class="fa-solid fa-check offercard__text--check"></i> opcja w pakiecie</p>
+                    <p><i class="fa-solid fa-check offercard__text--check"></i> opcja w pakiecie</p>
+                    <p><i class="fa-solid fa-check offercard__text--check"></i> opcja w pakiecie</p>
+                    <p class="offercard__text--unable"><i class="fa-solid fa-minus offercard__text--minus"></i> opcja
+                        poza pakietem</p>
+                    <p class="offercard__text--unable"><i class="fa-solid fa-minus offercard__text--minus"></i> opcja
+                        poza pakietem</p>
+                </div>
+                <button class="offercard__btn">Wybierz</button>
+            </div>
+            <div class="offercard">
+                <div class="offercard__header">
+                    <p class="offercard__header--heading">Premium</p>
+                    <p class="offercard__header--price">$299</p>
+                </div>
+                <div class="offercard__text">
+                    <p><i class="fa-solid fa-check offercard__text--check"></i> opcja w pakiecie</p>
+                    <p><i class="fa-solid fa-check offercard__text--check"></i> opcja w pakiecie</p>
+                    <p><i class="fa-solid fa-check offercard__text--check"></i> opcja w pakiecie</p>
+                    <p><i class="fa-solid fa-check offercard__text--check"></i> opcja w pakiecie</p>
+                    <p><i class="fa-solid fa-check offercard__text--check"></i> opcja w pakiecie</p>
+                </div>
+                <button class="offercard__btn">Wybierz</button>
+            </div>
+            <p class="offer__text">Potrzebujesz indywidualnej wyceny? Zaznacz jaki zakres Cię interesuje w naszym <a href="oferta.html"
+                    class="link link--green"> kreatorze</a>, a odezwiemy się z ofertą do 24 godzin!</p>
+        </div>
+    </section>
+
     <footer class="footer">
-    <p class="footer__bottom-text">&copy; <span class="footer__year"></span> Forest Group Company Ltd.</p>
+    <!-- <div class="wrapper"> -->
+    <div class="footer__logo">
+        <p class="footer__logo--img"><img src="/dist/img/christmas-tree.png" alt=""> Forest</p>
+    </div>
+
+    <div class="footer__upper-box">
+        <h3 class="footer__upper-box--heading">O nas</h3>
+        <p class="footer__upper-box--text"><a href="#" class="link">Historia</a></p>
+        <p class="footer__upper-box--text"><a href="#" class="link">Parki</a></p>
+        <p class="footer__upper-box--text"><a href="#" class="link">Opinie</a></p>
+    </div>
+
+    <div class="footer__upper-box">
+        <h3 class="footer__upper-box--heading">Nasza firma</h3>
+        <p class="footer__upper-box--text"><a href="#" class="link">Praca</a></p>
+        <p class="footer__upper-box--text"><a href="#" class="link">Kadry</a></p>
+        <p class="footer__upper-box--text"><a href="#" class="link">Zarząd</a></p>
+    </div>
+
+    <div class="footer__upper-box">
+        <h3 class="footer__upper-box--heading">Dokumenty</h3>
+        <p class="footer__upper-box--text"><a href="#" class="link">Wnioski</a></p>
+        <p class="footer__upper-box--text"><a href="#" class="link">Rezerwacje</a></p>
+    </div>
+    <!-- 
+    </div> -->
+    <div class="footer__bottom-box">
+        <p class="footer__bottom-box--text">&copy; <span class="footer__year"></span> Forest Group Company Ltd.</p>
+    </div>
 </footer>
     <script src="./dist/js/main.min.js"></script>
 </body>

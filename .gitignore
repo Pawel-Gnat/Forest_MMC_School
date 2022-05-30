@@ -2,5 +2,3 @@ gulpfile.js
 node_modules
 src
 html
-package-lock.json
-package.json
