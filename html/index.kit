@@ -14,28 +14,7 @@
 </head>
 
 <body>
-    <nav class="nav nav__mobile nav__container">
-    <p><img class='nav__logo-img' src="./dist/img/christmas-tree.png" alt="Logo">Forest</p>
-    <button class="nav__button">
-        <i class="fa-solid fa-bars"></i>
-    </button>
-    <div class="nav__items">
-        <a class="nav__link link" href="#">Home</a>
-        <a class="nav__link link" href="#aboutus">O nas</a>
-        <a class="nav__link link" href="#offer">Oferta</a>
-        <a class="nav__link link" href="kontakt.html">Kontakt</a>
-    </div>
-</nav>
-
-<nav class="nav nav__desktop">
-    <div class="wrapper nav__container">
-        <p><img class='nav__logo-img' src="./dist/img/christmas-tree.png" alt="Logo">Forest</p>
-        <a class="nav__link link" href="#">Home</a>
-        <a class="nav__link link" href="#aboutus">O nas</a>
-        <a class="nav__link link" href="#offer">Oferta</a>
-        <a class="nav__link link" href="kontakt.html">Kontakt</a>
-    </div>
-</nav>
+    <!-- @include 'nav.kit' -->
     <header>
         <div class="header">
             <div class="header__shadow"></div>
@@ -138,38 +117,7 @@
         </div>
     </section>
 
-    <footer class="footer">
-    <div class="wrapper">
-        <div class="footer-grid">
-            <div class="footer-grid__logo">
-                <p class="footer-grid__logo--img"><img src="./dist/img/christmas-tree.png" alt="Logo"> Forest</p>
-            </div>
-
-            <div class="footer-grid__upper-box">
-                <h3 class="footer-grid__upper-box--heading">O nas</h3>
-                <p class="footer-grid__upper-box--text"><a href="#" class="link">Historia</a></p>
-                <p class="footer-grid__upper-box--text"><a href="#" class="link">Parki</a></p>
-                <p class="footer-grid__upper-box--text"><a href="#" class="link">Opinie</a></p>
-            </div>
-
-            <div class="footer-grid__upper-box">
-                <h3 class="footer-grid__upper-box--heading">Nasza firma</h3>
-                <p class="footer-grid__upper-box--text"><a href="#" class="link">Praca</a></p>
-                <p class="footer-grid__upper-box--text"><a href="#" class="link">Kadry</a></p>
-                <p class="footer-grid__upper-box--text"><a href="#" class="link">Zarząd</a></p>
-            </div>
-
-            <div class="footer-grid__upper-box">
-                <h3 class="footer-grid__upper-box--heading">Dokumenty</h3>
-                <p class="footer-grid__upper-box--text"><a href="#" class="link">Wnioski</a></p>
-                <p class="footer-grid__upper-box--text"><a href="#" class="link">Rezerwacje</a></p>
-            </div>
-        </div>
-    </div>
-    <div class="footer-grid__bottom-box">
-        <p class="footer__bottom-box--text">&copy; <span class="footer__year"></span> Forest Group Company Ltd.</p>
-    </div>
-</footer>
+    <!-- @include 'footer.kit' -->
     <script src="./dist/js/main.min.js"></script>
 </body>
 
