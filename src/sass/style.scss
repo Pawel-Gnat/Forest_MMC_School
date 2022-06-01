@@ -94,7 +94,7 @@ body {
 	}
 }
 
-.header {
+.header-img {
 	position: relative;
 	height: 40vh;
 	background-image: url('/dist/img/jungle-sm.jpg');
@@ -110,7 +110,7 @@ body {
 		background-color: rgba(0, 0, 0, 0.6);
 		z-index: -1;
 	}
-	&-img__text {
+	&__text {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
