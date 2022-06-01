@@ -8,6 +8,19 @@
 	padding: 0;
 }
 
+a:link {
+	color: inherit;
+}
+a:active {
+	color: inherit;
+}
+a:visited {
+	color: inherit;
+}
+a:hover {
+	color: inherit;
+}
+
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
@@ -38,15 +51,6 @@ body {
 		bottom: -3px;
 		width: 1em;
 	}
-	&__button {
-		position: relative;
-		padding: 0.5em;
-		background: none;
-		border: none;
-		font-size: 3rem;
-		color: black;
-		cursor: pointer;
-	}
 	&__container {
 		display: flex;
 		justify-content: space-between;
@@ -76,6 +80,15 @@ body {
 			padding: 1em;
 		}
 	}
+	&__button {
+		position: relative;
+		padding: 0.5em;
+		background: none;
+		border: none;
+		font-size: 3rem;
+		color: black;
+		cursor: pointer;
+	}
 }
 
 .sticky-body {
@@ -97,7 +110,7 @@ body {
 .header-img {
 	position: relative;
 	height: 40vh;
-	background-image: url('/dist/img/jungle-sm.jpg');
+	background-image: url('../../dist/img/jungle-sm.jpg');
 	background-size: cover;
 	background-position: center;
 	z-index: -2;
@@ -157,7 +170,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 30vh;
-	background-image: url('/dist/img/girl-sm.jpg');
+	background-image: url('../../dist/img/girl-sm.jpg');
 	background-size: cover;
 	background-position: center;
 	z-index: -2;
@@ -310,8 +323,14 @@ body {
 			justify-self: start;
 		}
 	}
+	.hero-img {
+		background-image: url('../../dist/img/girl-bg.jpg');
+	}
+	.header-img {
+		background-image: url('../../dist/img/jungle-bg.jpg');
+	}
 	.nav {
-		// overflow: hidden;
+		overflow: hidden;
 		&__desktop {
 			display: block;
 		}
@@ -322,16 +341,9 @@ body {
 			position: relative;
 			top: 0;
 			align-self: center;
-			font-size: 1rem;
-			padding: 3em 2em;
+			font-size: 2rem;
+			padding: 1em 0.5em;
 		}
-		// &__container {
-		// 	display: block;
-		// 	font-size: 2em;
-		// 	p {
-		// 		display: flex;
-		// 		align-items: center;
-		// 	}
-		// }
 	}
+	
 }
